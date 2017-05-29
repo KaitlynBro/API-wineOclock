@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wine o'Clock</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+	<h1>Wine o'Clock</h1>
+</header>
+
+<form action="" class="wrapper" onsubmit="return false;">  
+	<div class="container" id="wineTypes">
+		<label for="redWine">
+			<h2>Find the perfect style of wine for your taste!</h2>
+			<h2>Choose Your Poison</h2>
+			<p>
+				Red Wine
+				<input type="radio" name="typeOfWine" id="redWine" value="redWine" class="userWineType">
+			</p>
+		</label>
+		<label for="whiteWine">
+			<p>
+				White Wine
+				<input type="radio" name="typeOfWine" id="whiteWine" value="whiteWine" class="userWineType">
+			</p>
+		</label>
+	</div>
+
+	<div class="redWineStyle">
+		<h2>If You Chose Red Wine, What's Your Style?</h2>
+		<label for="redWineStyle">
+			<p>
+				Medium-Bodied & Fruity
+				<input type="radio" name="style" id="mediumAndFruityRed" value="Medium-bodied & Fruity" class="userWineStyle">
+			</p>
+		</label>
+		<label for="redWineStyle">
+			<p>
+				Full-Bodied & Smooth
+				<input type="radio" name="style" id="fullAndSmoothRed" value="Full-bodied & Smooth" class="userWineStyle">
+			</p>
+		</label>
+		<label for="redWineStyle">
+			<p>
+				Light-Bodied & Fruity
+				<input type="radio" name="style" id="lightAndFruityRed" value="Light-bodied & Fruity" class="userWineStyle">
+			</p>
+		</label>
+		<label for="redWineStyle">
+			<p>
+				Full-Bodied & Firm
+				<input type="radio" name="style" id="fullBodiedAndFirmRed" value="Full-bodied & Firm" class="userWineStyle">
+			</p>
+		</label>
+	</div>
+
+
+	<div class="whiteWineStyle">
+		<h2>If You Chose White Wine, What's Your Style?</h2>
+		<label for="whiteWineStyle">
+			<p>Light & Crisp
+				<input type="radio" name="style" id="lightAndCrispWhite" value="Light & Crisp" class="userWineStyle">
+			</p>
+		</label>
+
+		<label for="whiteWineStyle">
+			<p>
+				Off-Dry & Fruity
+				<input type="radio" name="style" id="offDryAndFruityWhite" value="Off-dry & Fruity" class="userWineStyle">
+			</p>
+		</label>
+
+		<label for="whiteWineStyle">
+			<p>
+				Full-Bodied & Rich
+				<input type="radio" name="style" id="fullBodiedAndRichWhite" value="Full-bodied & Rich" class="userWineStyle">
+			</p>
+		</label>
+		
+		<label for="whiteWineStyle">
+			<p>
+				Aromatic & Flavourful
+				<input type="radio" name="style" id="aromaticAndFlavourfulWhite" value="Aromatic & Flavourful" class="userWineStyle">
+			</p>
+		</label>
+
+		<label for="whiteWineStyle">
+			<p>
+				Soft & Off-Dry
+				<input type="radio" name="style" id="softAndOffDryWhite" value="Soft & Off-dry" class="userWineStyle">
+			</p>
+		</label>
+	</div>
+	<input type="submit" class="submitButton" value="Find Your Perfect Wine">
+</form>
+
+<div class="wineResults wrapper2" id="wineResults">
+</div>
+
+<div class="refreshPage">
+	<button id="reloadButton">
+		<p>Pick A New Wine</p>
+	</button>
+</div>
+
+</body>
+<footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<script src="script.js"></script>	
+</footer>
+</html>
+
+

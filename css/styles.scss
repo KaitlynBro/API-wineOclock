@@ -1,0 +1,104 @@
+@import "partials/setup";
+@import "partials/form";
+@import "partials/wine-results";
+@import "partials/buttons";
+
+// general styles begins 
+body {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #20B2AA;
+	font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	width: 1300px;
+	max-width: 100%;
+}
+
+header {
+	background-image: url(../assets/winebg.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 85vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 70px;
+	margin: 0;
+	background-color: aliceblue;
+	opacity: 0.8;
+	letter-spacing: 2px;
+
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+
+}
+
+
+
+// media queries begin
+
+@media (max-width: 1390px) {
+	.submitButton {
+		font-size: 20px;
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+
+	#reloadButton {
+		font-size: 20px;
+	}
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 970px) {
+	label p {
+		font-size: 20px;
+	}
+
+	.wineResults div {
+    	width: 50%;
+    	max-width: 90%;
+    	p {
+    		font-size: 20px;
+    	}
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 770px) {
+	.wineResults div {
+		width: 100%;
+		padding: 0;
+		p {
+			font-size: 0px;
+		}
+	}
+
+	.submitButton {
+		padding: 0;
+		padding-left: 15px;
+		border: 1px solid #20B2AA;;
+		font-size: 16px;
+	}
+}
+
+
