@@ -2,9 +2,15 @@ form {
 	display: flex;
 	flex-direction: column;
 	margin-top: 100px;
-	background-color: #FFC0CB;
+	background-color: white;
 	padding-right: 50px;
 	padding-left: 50px;
+	border: 20px solid #2c9b95;
+}
+
+.h2Hierarchy {
+	font-size: 35px;
+	color: #2c9b95;
 }
 
 label p {
@@ -17,8 +23,8 @@ label p {
 	max-width: 100%;
 	display: flex;
     align-self: center;
+    background-color: #3acbc3;
     justify-content: center;
     padding: 10px;
     margin-bottom: 50px;
-    border: 1px solid #FFC0CB;
 }
