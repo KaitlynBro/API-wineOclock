@@ -7,7 +7,7 @@ var redWineStyles = ["Medium-bodied & Fruity", "Full-bodied & Smooth", "Light-bo
 
 
 //api key
-wine.key = 'MDpjMGM4NDhlNC0zZmZkLTExZTctOTM3MS03MzI4N2RlODE4ZDY6NVhqNzNCMU5ya3hTWXN3UmF2Tk5wQlZhUGFqT3dhdU5SZjMx'
+wine.key = 'MDozMDc3N2FmNi01Njk4LTExZTctOGY5Yy04YjgwY2RlZmVlNjQ6MnMyTlAyRjBKYWRqNUx4MlFhYmhoejBZangySkhRa2s3SmNw'
 
 
 //initialize code
@@ -21,7 +21,7 @@ function getWineByType(wineType) {
 	return $.ajax({
 		url: 'https://lcboapi.com/products',
 		headers: { 
-			'Authorization': 'Token MDpjMGM4NDhlNC0zZmZkLTExZTctOTM3MS03MzI4N2RlODE4ZDY6NVhqNzNCMU5ya3hTWXN3UmF2Tk5wQlZhUGFqT3dhdU5SZjMx'
+			'Authorization': 'Token MDozMDc3N2FmNi01Njk4LTExZTctOGY5Yy04YjgwY2RlZmVlNjQ6MnMyTlAyRjBKYWRqNUx4MlFhYmhoejBZangySkhRa2s3SmNw'
 		},
 		data: {
 			per_page: 100,
