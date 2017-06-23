@@ -70,7 +70,6 @@ wine.listenForUserInput = function(wineObjects) {
 			$('#wineResults').addClass('noResultsText').append('<p>Sorry, no results found.</p>');
 		} else {
 			$('#wineResults').removeClass('noResultsText')
-			console.log(filtered);
 			wine.displayResults(filtered)		
 		}
 	});
@@ -94,7 +93,6 @@ wine.displayResults = function(selectedArray) {
 //reload button that will reload the page
 function reloadButton(){
 	$('#reloadButton').on('click', function(){
-		console.log(reloadButton);
 		location.reload();
 	});
 };
